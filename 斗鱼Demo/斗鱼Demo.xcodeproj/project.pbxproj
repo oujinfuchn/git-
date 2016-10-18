@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14F4F2741DB61428003EC341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F4F2721DB61428003EC341 /* Main.storyboard */; };
+		14F4F2761DB61428003EC341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F4F2751DB61428003EC341 /* Assets.xcassets */; };
+		14F4F2791DB61428003EC341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F4F2771DB61428003EC341 /* LaunchScreen.storyboard */; };
+		14F4F2841DB61428003EC341 /* __DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4F2831DB61428003EC341 /* __DemoTests.swift */; };
+		14F4F28F1DB61428003EC341 /* __DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4F28E1DB61428003EC341 /* __DemoUITests.swift */; };
+		85A3491C8BC797ABB0059A71 /* Pods___Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B22CB963D6145517E6446D5 /* Pods___Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14F4F2801DB61428003EC341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F4F2631DB61428003EC341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F4F26A1DB61428003EC341;
+			remoteInfo = "斗鱼Demo";
+		};
+		14F4F28B1DB61428003EC341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F4F2631DB61428003EC341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F4F26A1DB61428003EC341;
+			remoteInfo = "斗鱼Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14F4F26B1DB61428003EC341 /* 斗鱼Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "斗鱼Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F4F2731DB61428003EC341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14F4F2751DB61428003EC341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14F4F2781DB61428003EC341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14F4F27A1DB61428003EC341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F4F27F1DB61428003EC341 /* 斗鱼DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "斗鱼DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F4F2831DB61428003EC341 /* __DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __DemoTests.swift; sourceTree = "<group>"; };
+		14F4F2851DB61428003EC341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F4F28A1DB61428003EC341 /* 斗鱼DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "斗鱼DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F4F28E1DB61428003EC341 /* __DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __DemoUITests.swift; sourceTree = "<group>"; };
+		14F4F2901DB61428003EC341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		225D53F50F5288F36E864F0F /* Pods-斗鱼Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-斗鱼Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-斗鱼Demo/Pods-斗鱼Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		23D86491EC7A340048DB6764 /* Pods-斗鱼Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-斗鱼Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-斗鱼Demo/Pods-斗鱼Demo.release.xcconfig"; sourceTree = "<group>"; };
+		3B22CB963D6145517E6446D5 /* Pods___Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14F4F2681DB61428003EC341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A3491C8BC797ABB0059A71 /* Pods___Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F4F27C1DB61428003EC341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F4F2871DB61428003EC341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14F4F2621DB61428003EC341 = {
+			isa = PBXGroup;
+			children = (
+				14F4F29C1DB614D7003EC341 /* Frameworks */,
+				14F4F26D1DB61428003EC341 /* 斗鱼Demo */,
+				14F4F2821DB61428003EC341 /* 斗鱼DemoTests */,
+				14F4F28D1DB61428003EC341 /* 斗鱼DemoUITests */,
+				14F4F26C1DB61428003EC341 /* Products */,
+				6B1B127068ED1C58E7257686 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		14F4F26C1DB61428003EC341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14F4F26B1DB61428003EC341 /* 斗鱼Demo.app */,
+				14F4F27F1DB61428003EC341 /* 斗鱼DemoTests.xctest */,
+				14F4F28A1DB61428003EC341 /* 斗鱼DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14F4F26D1DB61428003EC341 /* 斗鱼Demo */ = {
+			isa = PBXGroup;
+			children = (
+				14F4F2BA1DB617F1003EC341 /* AppDelegate */,
+				14F4F2B01DB61672003EC341 /* Classes */,
+				14F4F2A01DB614E7003EC341 /* Resource */,
+				14F4F2721DB61428003EC341 /* Main.storyboard */,
+				14F4F2751DB61428003EC341 /* Assets.xcassets */,
+				14F4F2771DB61428003EC341 /* LaunchScreen.storyboard */,
+				14F4F27A1DB61428003EC341 /* Info.plist */,
+			);
+			path = "斗鱼Demo";
+			sourceTree = "<group>";
+		};
+		14F4F2821DB61428003EC341 /* 斗鱼DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				14F4F2831DB61428003EC341 /* __DemoTests.swift */,
+				14F4F2851DB61428003EC341 /* Info.plist */,
+			);
+			path = "斗鱼DemoTests";
+			sourceTree = "<group>";
+		};
+		14F4F28D1DB61428003EC341 /* 斗鱼DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14F4F28E1DB61428003EC341 /* __DemoUITests.swift */,
+				14F4F2901DB61428003EC341 /* Info.plist */,
+			);
+			path = "斗鱼DemoUITests";
+			sourceTree = "<group>";
+		};
+		14F4F29C1DB614D7003EC341 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B22CB963D6145517E6446D5 /* Pods___Demo.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		14F4F2A01DB614E7003EC341 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				14F4F2A11DB614E7003EC341 /* Fonts */,
+				14F4F2A21DB614E7003EC341 /* Images */,
+				14F4F2A31DB614E7003EC341 /* Souds */,
+				14F4F2A41DB614E7003EC341 /* Videos */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		14F4F2A11DB614E7003EC341 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		14F4F2A21DB614E7003EC341 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		14F4F2A31DB614E7003EC341 /* Souds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Souds;
+			sourceTree = "<group>";
+		};
+		14F4F2A41DB614E7003EC341 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		14F4F2B01DB61672003EC341 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				14F4F2B11DB61672003EC341 /* General */,
+				14F4F2B21DB61672003EC341 /* Helpers */,
+				14F4F2B31DB61672003EC341 /* Macro */,
+				14F4F2B41DB61672003EC341 /* Sections */,
+				14F4F2B91DB61672003EC341 /* Vendors */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		14F4F2B11DB61672003EC341 /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		14F4F2B21DB61672003EC341 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		14F4F2B31DB61672003EC341 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		14F4F2B41DB61672003EC341 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				14F4F2B51DB61672003EC341 /* Models */,
+				14F4F2B61DB61672003EC341 /* ViewControllers */,
+				14F4F2B71DB61672003EC341 /* ViewModels */,
+				14F4F2B81DB61672003EC341 /* Views */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		14F4F2B51DB61672003EC341 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		14F4F2B61DB61672003EC341 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		14F4F2B71DB61672003EC341 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		14F4F2B81DB61672003EC341 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14F4F2B91DB61672003EC341 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		14F4F2BA1DB617F1003EC341 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6B1B127068ED1C58E7257686 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				225D53F50F5288F36E864F0F /* Pods-斗鱼Demo.debug.xcconfig */,
+				23D86491EC7A340048DB6764 /* Pods-斗鱼Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14F4F26A1DB61428003EC341 /* 斗鱼Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F4F2931DB61428003EC341 /* Build configuration list for PBXNativeTarget "斗鱼Demo" */;
+			buildPhases = (
+				88E91167C753972F176B9ACF /* [CP] Check Pods Manifest.lock */,
+				14F4F2671DB61428003EC341 /* Sources */,
+				14F4F2681DB61428003EC341 /* Frameworks */,
+				14F4F2691DB61428003EC341 /* Resources */,
+				E65825E9C2C6BA538F17D718 /* [CP] Embed Pods Frameworks */,
+				DE884A4276A5FDC715B4B110 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "斗鱼Demo";
+			productName = "斗鱼Demo";
+			productReference = 14F4F26B1DB61428003EC341 /* 斗鱼Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14F4F27E1DB61428003EC341 /* 斗鱼DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F4F2961DB61428003EC341 /* Build configuration list for PBXNativeTarget "斗鱼DemoTests" */;
+			buildPhases = (
+				14F4F27B1DB61428003EC341 /* Sources */,
+				14F4F27C1DB61428003EC341 /* Frameworks */,
+				14F4F27D1DB61428003EC341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F4F2811DB61428003EC341 /* PBXTargetDependency */,
+			);
+			name = "斗鱼DemoTests";
+			productName = "斗鱼DemoTests";
+			productReference = 14F4F27F1DB61428003EC341 /* 斗鱼DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14F4F2891DB61428003EC341 /* 斗鱼DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F4F2991DB61428003EC341 /* Build configuration list for PBXNativeTarget "斗鱼DemoUITests" */;
+			buildPhases = (
+				14F4F2861DB61428003EC341 /* Sources */,
+				14F4F2871DB61428003EC341 /* Frameworks */,
+				14F4F2881DB61428003EC341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F4F28C1DB61428003EC341 /* PBXTargetDependency */,
+			);
+			name = "斗鱼DemoUITests";
+			productName = "斗鱼DemoUITests";
+			productReference = 14F4F28A1DB61428003EC341 /* 斗鱼DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14F4F2631DB61428003EC341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Edison;
+				TargetAttributes = {
+					14F4F26A1DB61428003EC341 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					14F4F27E1DB61428003EC341 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 14F4F26A1DB61428003EC341;
+					};
+					14F4F2891DB61428003EC341 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 14F4F26A1DB61428003EC341;
+					};
+				};
+			};
+			buildConfigurationList = 14F4F2661DB61428003EC341 /* Build configuration list for PBXProject "斗鱼Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14F4F2621DB61428003EC341;
+			productRefGroup = 14F4F26C1DB61428003EC341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14F4F26A1DB61428003EC341 /* 斗鱼Demo */,
+				14F4F27E1DB61428003EC341 /* 斗鱼DemoTests */,
+				14F4F2891DB61428003EC341 /* 斗鱼DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14F4F2691DB61428003EC341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F4F2791DB61428003EC341 /* LaunchScreen.storyboard in Resources */,
+				14F4F2761DB61428003EC341 /* Assets.xcassets in Resources */,
+				14F4F2741DB61428003EC341 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F4F27D1DB61428003EC341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F4F2881DB61428003EC341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88E91167C753972F176B9ACF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE884A4276A5FDC715B4B110 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-斗鱼Demo/Pods-斗鱼Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E65825E9C2C6BA538F17D718 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-斗鱼Demo/Pods-斗鱼Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14F4F2671DB61428003EC341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F4F27B1DB61428003EC341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F4F2841DB61428003EC341 /* __DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F4F2861DB61428003EC341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F4F28F1DB61428003EC341 /* __DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14F4F2811DB61428003EC341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F4F26A1DB61428003EC341 /* 斗鱼Demo */;
+			targetProxy = 14F4F2801DB61428003EC341 /* PBXContainerItemProxy */;
+		};
+		14F4F28C1DB61428003EC341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F4F26A1DB61428003EC341 /* 斗鱼Demo */;
+			targetProxy = 14F4F28B1DB61428003EC341 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14F4F2721DB61428003EC341 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F4F2731DB61428003EC341 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14F4F2771DB61428003EC341 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F4F2781DB61428003EC341 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14F4F2911DB61428003EC341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14F4F2921DB61428003EC341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14F4F2941DB61428003EC341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 225D53F50F5288F36E864F0F /* Pods-斗鱼Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "斗鱼Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "richeninfo.--Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14F4F2951DB61428003EC341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D86491EC7A340048DB6764 /* Pods-斗鱼Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "斗鱼Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "richeninfo.--Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14F4F2971DB61428003EC341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "斗鱼DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "richeninfo.--DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/斗鱼Demo.app/斗鱼Demo";
+			};
+			name = Debug;
+		};
+		14F4F2981DB61428003EC341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "斗鱼DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "richeninfo.--DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/斗鱼Demo.app/斗鱼Demo";
+			};
+			name = Release;
+		};
+		14F4F29A1DB61428003EC341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "斗鱼DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "richeninfo.--DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "斗鱼Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		14F4F29B1DB61428003EC341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "斗鱼DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "richeninfo.--DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "斗鱼Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14F4F2661DB61428003EC341 /* Build configuration list for PBXProject "斗鱼Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F4F2911DB61428003EC341 /* Debug */,
+				14F4F2921DB61428003EC341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F4F2931DB61428003EC341 /* Build configuration list for PBXNativeTarget "斗鱼Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F4F2941DB61428003EC341 /* Debug */,
+				14F4F2951DB61428003EC341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F4F2961DB61428003EC341 /* Build configuration list for PBXNativeTarget "斗鱼DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F4F2971DB61428003EC341 /* Debug */,
+				14F4F2981DB61428003EC341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F4F2991DB61428003EC341 /* Build configuration list for PBXNativeTarget "斗鱼DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F4F29A1DB61428003EC341 /* Debug */,
+				14F4F29B1DB61428003EC341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14F4F2631DB61428003EC341 /* Project object */;
+}
